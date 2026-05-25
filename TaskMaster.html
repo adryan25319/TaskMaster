@@ -1,43 +1,13 @@
 <!doctype html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>TaskMaster</title>
-</head>
-<body>
-  <div class="container">
-    <header>
-      <h1>TaskMaster</h1>
-      <p>Your tasks • Your steps • Your progress</p>
-    </header>
-
-    <div class="main-content">
-      <button onclick="showAddTaskModal()">+ New Task</button>
-
-      <div class="task-list" id="taskList">
-        <!-- Tasks will be added here by JavaScript -->
-      </div>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Task Master</title>
+    <link rel="stylesheet" href="TaskMaster.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="todo-app">
     </div>
-  </div>
-
-  <!-- Add Task Modal -->
-  <div id="taskModal" class="modal">
-    <div class="modal-content">
-      <h2>Add New Task</h2>
-      
-      <input type="text" id="taskTitle" placeholder="Task Title">
-      <textarea id="taskDesc" placeholder="Description (optional)"></textarea>
-
-      <h3>Steps to Complete</h3>
-      <div id="stepsContainer"></div>
-      <button onclick="addStepInput()">+ Add Step</button>
-
-      <div class="modal-buttons">
-        <button onclick="saveTask()">Save Task</button>
-        <button onclick="closeModal()">Cancel</button>
-      </div>
-    </div>
-  </div>
-</body>
+  </body>
 </html>
