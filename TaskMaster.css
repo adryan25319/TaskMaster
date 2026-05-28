@@ -10,3 +10,21 @@
     background-color: Green;
     padding: 10px;
 }
+.todo-app{
+    width: 100%;
+    max-width: 100px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+}
+img{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    margin-bottom: 20px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
